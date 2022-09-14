@@ -1,0 +1,10 @@
+{
+  "name": "testing_apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.2",
+    "jest": "^29.0.3"
+  }
+}
