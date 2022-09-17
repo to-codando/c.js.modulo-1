@@ -5,7 +5,7 @@ const keyValueToString = ([key, value]) => {
   return `${key}=${value}`
 }
 
-module.exports.queryString = obj =>
+export const queryString = obj =>
   Object.entries(obj).map(keyValueToString).join('&')
 
 module.exports.parse = string => {
